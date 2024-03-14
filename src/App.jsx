@@ -5,7 +5,7 @@ import './App.css'
 
 const App = () => {
 
-  const[advice, setAdvice] = useState([])
+  const[advice, setAdvice] = useState('')
 
   useEffect(() => {
    const getAdvice = async () => {
@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div>
-     
+     <AdviceDetail advice={advice} slip_id={1} />
     </div>
   )
 }
