@@ -3,10 +3,10 @@
 
 
 
-const AdviceDetail = ({advice, slip_id}) => {
+const AdviceDetail = ({advice, slipId}) => {
     return (
         <div>
-            <h4>Advice # {slip_id}</h4>
+            <h4>Advice # {slipId}</h4>
             <h1>{advice}</h1>
         </div>
     )
