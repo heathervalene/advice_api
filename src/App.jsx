@@ -17,8 +17,9 @@ const App = () => {
   const fetchAdvice = async () => {
     try {
       const response = await axios.get('https://api.adviceslip.com/advice');
-      const { slip_id, advice } = response.data.slip;
-      setSlipId(slip_id);
+      const { id, advice } = response.data.slip;
+      console.log(response.data.slip);
+      setSlipId(id);
       setAdvice(advice);
     } catch (error) {
       console.error('Error fetching advice:', error);

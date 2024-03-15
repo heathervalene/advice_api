@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app solution
+# Advice generator app 
 
 
 ## Table of contents
@@ -6,13 +6,10 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -24,7 +21,7 @@ Responsive design advice generator using the advice slip API.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images//advice_generator_ss.png)
 
 
 
