@@ -8,7 +8,7 @@ const AdviceDetail = ({advice, slipId}) => {
         <div className="container advice-detail">
         
             <div className="slip">ADVICE # {slipId}</div>
-            <h4>"{advice}"</h4>
+            <div className="advice">"{advice}"</div>
             <img className="divider" src={patternDivide} alt="Pattern Divide" />
         </div>
     )

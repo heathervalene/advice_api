@@ -13,22 +13,20 @@ padding: 0;
 .advice-container {
   background-color: hsl(217, 19%, 24%);
   border-radius: 15px;
-  width: 350px; 
-  height: 200px; 
+  width: 300px;
   padding: 10px;
   margin-bottom: 20px;
 }
 
 
 .advice-detail {
- width: 300px;
- height: 100px;
   text-align: center;
 
 }
 
-h4 {
+.advice {
   color:hsl(193, 38%, 86%);
+  font-size: 20px;
 }
 
 .slip {
@@ -42,6 +40,7 @@ h4 {
 .divider {
   width: 100%;
   padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 
@@ -49,18 +48,20 @@ h4 {
   border-color: hsl(150, 100%, 66%);
   background-color: hsl(150, 100%, 66%);
   border-radius: 30px;
-  padding: 15px;
+  padding: 12px;
 }
 
 .btn:hover {
   border-color: hsl(150, 100%, 66%);
   background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 10px 3px hsl(150, 100%, 66%);
 
 }
 
 .button-detail {
   display:flex;
   justify-content: center;
+  margin-top: -40px;
  
 }
 
