@@ -2,9 +2,11 @@ import RefreshIcon from '../assets/icon-dice.svg'
 
 const RefreshButton = ({ onClick }) => {
     return (
-      <button onClick={onClick}>
+        <div className="container button-detail">
+      <button className="btn" onClick={onClick}>
         <img src={RefreshIcon} alt="Refresh Icon" />
       </button>
+      </div>
     );
   };
 

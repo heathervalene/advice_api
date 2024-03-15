@@ -1,13 +1,15 @@
-
+import patternDivide from '../assets/pattern-divider-desktop.svg'
 
 
 
 
 const AdviceDetail = ({advice, slipId}) => {
     return (
-        <div>
-            <h4>Advice # {slipId}</h4>
-            <h1>{advice}</h1>
+        <div className="container advice-detail">
+        
+            <div className="slip">ADVICE # {slipId}</div>
+            <h4>"{advice}"</h4>
+            <img className="divider" src={patternDivide} alt="Pattern Divide" />
         </div>
     )
 }

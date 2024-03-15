@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import AdviceDetail from './components/AdviceDetal'
 import RefreshButton from './components/RefreshButton'
 import axios from 'axios'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 const App = () => {
@@ -31,7 +32,9 @@ const App = () => {
 
   return (
     <div>
+    <div className="advice-container">
      <AdviceDetail advice={advice} slipId={slipId} />
+     </div>
      <RefreshButton onClick={handleRefreshClick} />
     </div>
   )
